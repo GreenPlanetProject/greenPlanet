@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+
+#bg-img-sec-1 {
+  background-image: url(https://i.imgur.com/O4RsnNI.png);
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-fundo {
+  background-color: #E9F3F5;
+}
+
+.bg-postagens {
+
+
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(-45deg,
+      #BCDDE4 0%,
+      #BCDDE4 100%);
+
+}
+
+.bg-azuzinho {
+  background-color: #BCDDE4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  position: absolute;
+  width: 198px;
+  height: 91px;
+  left: 135px;
+  top: 32px;
+}
+
+/*.menu {
+  position: absolute;
+  left: 50%;
+  right: 100px;
+  ;
+  top: 20%;
+  bottom: 98.24%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  list-style: none;
+  font-size: 21px;
+  float: right;
+
+}*/
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: blue;
+}
+
+.ft-card {
+  font-size: 16px;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  text-align: right;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+.menu li ul li {
+  border: 1px solid #c0c0c0;
+  display: block;
+  width: 150px;
+}
+
+#texto {
+  position: absolute;
+  width: 570px;
+  left: 136px;
+  top: 150px;
+}
+
+.facaparte {
+
+  text-align: center;
+  color: white;
+  left: 0%;
+
+  width: 40%;
+  height: 25%;
+
+  background: #2D0A95;
+  border-radius: 48px;
+}
+
+
+.textfaca {
+  color: white;
+}
+
+.saibamais {
+
+  position: absolute;
+  width: 267px;
+  height: 299px;
+  left: 1038px;
+  top: 120px;
+}
+
+.card {
+  background-image: url(/fotos/Rectangle\ 51@3x.png);
+  padding: auto;
+  margin: auto;
+  height: auto;
+  width: 444px;
+  transition: all 0.5s ease-out;
+  margin-top: 0 !important;
+
+}
+
+
+.card p {
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0px;
+
+
+}
+
+.container-fluid {
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hr3 {
+  position: absolute;
+  width: 900px;
+  left: 205px;
+  top: 1150px;
+  border: 1px solid #6B6B6B;
+  margin: 3%;
+
+}
+
+/*.imagem3{
+position: relative;
+float:right
+}
+.imagem4{
+  float: left;
+  margin: 80px;
+}
+.imagem5{
+position: absolute;
+left: 600px;
+right: 248.82px;
+top: 16%;
+bottom: 30.83%;
+}*/
+.imagem6 {
+  position: center;
+  margin-top: 6%;
+
+
+}
+
+.bg-bt-forum {
+
+  background-color: #0B7A62;
+
+  opacity: 0.9;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Merienda&family=Poiret+One&family=Poppins:wght@100;300&family=Red+Hat+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.fs-54 {
+  font-size: 54pt;
+}
+
+.fs-18 {
+  font-size: 18pt;
+}
+
+.fundo {
+  background-color: #E9F3F5;
+
+}
+
+.bg-postagens {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(-45deg,
+      #BCDDE4 0%,
+      #BCDDE4 100%);
+  animation: AnimateBG 20s ease infinite;
+}
+
+.bg-transparente {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.bg-transparente-menu {
+  background: #BCDDE4;
+}
+
+.text-links-nav {
+  color: rgb(174, 206, 255);
+}
+
+.cor-resp {
+  color: rgb(87, 247, 119);
+}
+
+.cor-novapost {
+  color: #32daf4
+}
+
+.bg-bt-post {
+  background-color: #18aec6;
+}
+
+.bg-bt-forum {
+  background-color: rgb(52, 181, 151);
+  ;
+}
+
+.cor-cancel {
+  color: #fb7f7f;
+}
+
+input::placeholder {
+  color: white;
+}
+
+textarea::placeholder {
+  color: white;
+}
+
+.bg-transparente {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.facaparte {
+
+  text-align: center;
+  color: white;
+  left: 0%;
+
+  width: 25%;
+  height: 15%;
+
+  background: #2D0A95;
+  border-radius: 48px;
+
+  margin: auto;
+
+}
